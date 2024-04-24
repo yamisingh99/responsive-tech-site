@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 699px) {
   nav {
     > h1 {
       display: none;
@@ -26,6 +26,7 @@
       justify-content: center;
       a {
         margin: 0.5rem;
+        font-size: 12px;
       }
     }
   }
@@ -41,10 +42,14 @@
     height: 120vh;
     flex-direction: column;
     img {
-      width: 100%;
+      width: 90%;
     }
     > div {
       width: 100%;
+      > p {
+        margin-bottom: 20px;
+        font-size: 0.9rem;
+      }
     }
   }
 
@@ -55,9 +60,10 @@
       width: 100%;
       border-radius: 0;
       > p {
-        padding: 5rem 2rem;
-        font-size: 0.9rem;
-        line-height: 150%;
+        margin-top: 0px;
+      
+        font-size: 0.7rem;
+        line-height: 200%;
       }
     }
   }
@@ -85,11 +91,12 @@
   }
 
   footer {
-    height: 50vh;
+    height: 30vh;
     grid-template-columns: 1fr;
     padding: 5rem;
     > div {
       align-items: center;
+      margin-top: 10px;
     }
   }
 }
